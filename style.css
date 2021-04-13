@@ -1,0 +1,90 @@
+body{
+	font-family: "Helvetica";
+	background: white;
+	font-size: 50px;
+}
+
+
+.heading span{
+	
+	position: relative;
+	border: white 3px black;
+	border-radius: 3px;
+	
+	padding: 3px;
+	top: 2vh;
+	
+}
+
+
+
+#category{
+	position: relative;
+	top: 4vh;
+	border: solid 2px gray;
+	padding: 2px;
+	border-radius: 3px;
+	
+	
+	height: 42vh;
+	background: lightgray;
+}
+
+#category span{
+		display: inline-block;
+		height: 50px;
+		width: 150px;
+		border: solid 2px white;
+		margin: 2vw;
+	
+		text-align: center;
+		border-radius: 1vh;
+		background: white;
+		padding:1.3vh;
+		font-size: 35px;
+}
+
+#category span:hover{
+		background: lightblue;
+		transition: 1s;
+}	
+
+#jk{
+	display: block;
+	border: solid 2px blue;
+	border-radius: 10px;
+	position: relative;
+	top: 10vh;
+	font-size: 30px;
+	color: white;
+	background: lightblue;
+	padding: 4vh;
+	text-align: center;
+}	
+
+#sel{
+	position: relative;
+	top: 9vh;
+	font-size: 33px;
+	color: black;
+	text-align: center;
+}
+
+#newJoke{
+		position: relative;
+		
+		top:13vh;
+		left:45vw;
+		text-align: center;
+		font-size: 30px;
+		color: blue;
+		cursor: pointer;
+}
+
+#newJoke:hover{
+		
+		color: lightblue;
+
+}
+
+
